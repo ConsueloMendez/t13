@@ -1,0 +1,97 @@
+body {
+    background-image: url("http://static.simpledesktops.com/uploads/desktops/2011/11/03/GoodnightCopenhagen.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: arial;
+    font-size: 13px;
+}
+
+#main{
+    width: 650px;
+    margin: 50px auto;
+    background-color: rgb(158, 158, 158)
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #333;
+}
+tr th:last-child,tr td:last-child, tr th:nth-last-child(2),tr td:nth-last-child(2){
+    text-align: center;
+    padding: 0;
+    width: 20px;
+}
+
+tr:nth-child(even){background-color: rgba(231, 42, 178, 0.22)}
+
+th {
+    background-color: rgb(99, 99, 99);
+}
+
+
+
+input:focus,select:focus {
+    border: 3px solid #555;
+}
+#update {
+    border: none;
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: rgba(84, 135, 32, 0);
+    color: black;
+
+}
+td button{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: rgba(188, 233, 121, 0);
+    color: black;
+
+}
+#update, #cr{
+    background-color: rgba(113, 168, 32, 0);
+}
+button:hover, #add:hover, #update:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+h2,p,input,select{
+    margin-left: 20px;
+    float:left;
+}
+input,select{
+    width: 650px;
+}
+
+ul{
+    float:left;
+}
+li{
+    margin:30px;
+}
